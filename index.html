@@ -14,7 +14,7 @@
     <ul id="journal-list"></ul>
 
     <script>
-        fetch('journal_list_openapi.json')
+        fetch('journal_list_openapi_refactored.json')
             .then(response => response.json())
             .then(data => {
                 const list = document.getElementById('journal-list');
